@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Movie Cost Analysis</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <style>
+      .currency {
+        color: var(--pico-color-green-600);
+        font-weight: bold;
+      }
+      .blockbuster {
+        color: var(--pico-color-yellow-600);
+        font-weight: bold;
+      }
+      .hit {
+        color: var(--pico-color-blue-600);
+        font-weight: bold;
+      }
+      .average {
+        color: var(--pico-color-gray-600);
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container">
+      <nav>
+        <ul>
+          <li><a href="index.html">Movie Analysis</a></li>
+          <li><a href="all-movie-data.html">All Movie Data</a></li>
+        </ul>
+      </nav>
+      <hgroup>
+        <h1>Movie Cost Analysis</h1>
+        <p>
+          Film industry revenue analysis using for loops with multiple revenue
+          streams
+        </p>
+      </hgroup>
+    </header>
+
+    <main class="container">
+      <section>
+        <h1>Most Expensive Movie</h1>
+        <p id="most-expensive-movie"></p>
+      </section>
+      <section>
+        <h1>Movie Average</h1>
+        <p id="movie-average"></p>
+      </section>
+    </main>
+
+    <footer class="container">
+      <small
+        >Learning JavaScript for loops with movie industry data analysis</small
+      >
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
